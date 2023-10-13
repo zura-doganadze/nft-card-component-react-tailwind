@@ -9,35 +9,35 @@ function App() {
   return (
     <>
       <div className="flex flex-col items-center justify-center mt-6 ">
-        <div className="flex flex-col justify-center px-6 bg-card-bg max-w-lg w-full pt-6 rounded-xl ">
-          <div className="relative   cursor-pointer rounded-md overflow-hidden">
-            <img src={Equilib} alt="" />
+        <div className="flex flex-col justify-center px-6 bg-card-bg sm:max-w-lg max-w-md w-full pt-6 rounded-xl ">
+          <div className="relative cursor-pointer rounded-md overflow-hidden">
+            <img src={Equilib} alt="nft img" />
             <div
               className="text-white z-10 absolute top-0 w-full h-full flex items-center
                           justify-center bg-hover-bg overflow-hidden rounded-md bg-fixed
                           opacity-0 transition duration-300 ease-in-out hover:opacity-100"
             >
-              <img src={Icon} alt="" />
+              <img src={Icon} alt="icon" />
             </div>
           </div>
           <div className="my-6">
             <div className="flex flex-col items-start text-left">
-              <h1 className="font-sans text-2xl font-semibold text-white cursor-pointer hover:text-text-hover">
+              <h1 className="font-sans sm:text-2xl text-lg font-semibold text-white cursor-pointer hover:text-text-hover">
                 Equilibrium #3429
               </h1>
-              <p className="mt-4 pr-1 font-sans text-lg text-span-color">
+              <p className="mt-4 pr-1 font-sans sm:text-lg text-sm text-span-color">
                 Our Equilibrium collection promotes balance and calm.
               </p>
               <div className="flex w-full justify-between mt-4 ">
                 <div className="flex w-max gap-x-2">
                   <img src={Ethereum} alt="eterium img" />
-                  <span className="text-lg inline-block font-semibold text-price-color">
+                  <span className="sm:text-lg text-sm inline-block font-semibold text-price-color">
                     0.041 ETH
                   </span>
                 </div>
                 <div className="flex w-max gap-x-2 ">
                   <img src={Clock} alt="clock img" />
-                  <span className="text-lg inline-block font-semibold text-span-color">
+                  <span className="sm:text-lg text-sm w-max inline-block font-semibold text-span-color">
                     3 days left
                   </span>
                 </div>
@@ -50,7 +50,7 @@ function App() {
                 alt="img"
                 className="h-[54px] w-[54px] rounded-full border border-white mr-4"
               />
-              <p className="text-lg text-span-color">
+              <p className="sm:text-lg text-sm text-span-color">
                 Creation of
                 <span className="text-white cursor-pointer hover:text-text-hover ml-2">
                   Jules Wyvern
@@ -60,7 +60,7 @@ function App() {
           </div>
         </div>
         <div>
-          <p className="text-lg text-span-color">
+          <p className="sm:text-lg text-sm text-span-color">
             Challenge by
             <a className="text-adrees-t-color mx-1 cursor-pointer border-b-2 border-blue-900">
               Frontend Mentor.
